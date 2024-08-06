@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preview-Cruip</title>
+    </head>
+    <body>
+        <!-- nav e header-->
+        <nav>
+            <div class="nav__left">
+                <a href="">
+                    <svg></svg>
+                </a>
+            </div> 
+            <div class="nav__center">
+                <div class="nav__center-menu">
+                    <a href=""></a>
+                </div>
+                <div class="nav__center-menu">
+                    <a href=""></a>
+                </div>
+                <div class="nav__center-menu">
+                    <a href=""></a>
+                </div>
+                <div class="nav__center-menu">
+                    <a href=""></a>
+                    <div class="nav__center-menu-submenu"> <!-- menù a tendina-->
+                        <div class="submenu-item">
+                            <a href=""></a>
+                        </div>
+                        <div class="submenu-item">
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="nav__right">
+                <div class="nav__right-toggle">
+                    <input type="checkbox" id="nav__toggle" name="toggle" value="true">
+                </div>
+                <div class="nav__right-action"></div>
+                    <div class="call-to-action"> <!-- l'ho chiamato così per poter riutilizzare la classe per tutti i "bottoni" identici -->
+                        <a href="">Request code</a>
+                    </div>
+                </div>
+            </div> 
+        </nav>
+        <header>
+            <div class="header__top">
+                <div class="header__top-left">
+                    <h1>Your website, reimagined</h1>
+                    <p>Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                    <div class="header__top-left-action">
+                        <input type="text" id="phone-number" name="phone" placeholder="Phone number"/>
+                        <div class="call-to-action">
+                            <a href="">Request code</a>
+                        </div>
+                    </div>
+                    <ul> <!-- ho pensato fosse una lista e non degli span perchè gli elementi sono allineati tra loro, al contrario dell'esercizio precedente -->
+                        <li>Lorem ipsum is placeholder text commonly.</li>
+                        <li>Excepteur sint occaecat cupidatat.</li>
+                        <li>Lorem ipsum is placeholder text commonly.</li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <img src="" alt="video iniziale"/>
+                    <a href="">
+                        <svg></svg> <!-- cerchio per il play -->
+                    </a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="header__bottom-statistic">
+                    <h3>2.4M</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div class="header__bottom-statistics">
+                    <h3>7M</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div class="header__bottom-statistics">
+                    <h3>7.4%</h3>
+                    <p>Days turn around</p>
+                </div>
+                <div class="header__bottom-statistics">
+                    <h3>49K</h3>
+                    <p>Days turn around</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Sezione 1-->
+            <section class="main__section1">
+                <div class="main__section1-top">
+                    <h2>From rough design files, to powerful products</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                </div>
+                <div class="main__section1-center">
+                    <div class="slider">
+                        <!-- potrebbero essere delle specie di card? -->
+                        <div class="slider-element">
+                            <img src="" alt="" /> <!-- img da mettere come background, si fa tramite css e quindi non si inserisce il tag img? -->
+                            <div class="call-to-action">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="creative-services">
+                                <a href="">Creative Services</a>
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <img src="" alt="" /> <!-- background -->
+                            <div class="call-to-action">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="creative-services">
+                                <a href="">Creative Services</a>
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <img src="" alt="" /> <!-- background -->
+                            <div class="call-to-action">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="creative-services">
+                                <a href="">Creative Services</a>
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <img src="" alt="" /> <!-- background -->
+                            <div class="call-to-action">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="creative-services">
+                                <a href="">Creative Services</a>
+                            </div>
+                        </div>
+                        <div class="slider-element">
+                            <img src="" alt="" /> <!-- background -->
+                            <div class="call-to-action">
+                                <a href="">Learn more</a>
+                            </div>
+                            <div class="creative-services">
+                                <a href="">Creative Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__section1-bottom">
+                    <button class="arrow-left">
+                        <span> <- </span>
+                    </button>
+                    <button class="arrow-right">
+                        <span> -> </span>
+                    </button>
+                </div>
+            </section>
+            <!-- Sezione 2-->
+            <section class="main__section2">
+                <div class="main__section2-top">
+                    <h2>Turn your ideas into reality in seconds</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                </div>
+                <div class="main__section2-bottom">
+                    <div class="main__section2-bottom-left"> <!-- al click di ogni bottone cambiano i video sulla destra -->
+                        <button class="button-category">
+                            <i class="fa fa-icon"></i>
+                            <span>Getting Started</span>
+                        </button>
+                        <button class="button-category">
+                            <i class="fa fa-icon"></i>
+                            <span>Collection List</span>
+                        </button>
+                        <button class="button-category">
+                            <i class="fa fa-icon"></i>
+                            <span>Element Hierarchy</span>
+                        </button>
+                        <button class="button-category">
+                            <i class="fa fa-icon"></i>
+                            <span>Styling Basics</span>
+                        </button>
+                        <button class="button-category">
+                            <i class="fa fa-icon"></i>
+                            <span>image Field</span>
+                        </button>
+                    </div>
+                    <div class="main__section2-bottom-right">
+                        <div class="video-category-background">
+                            <img src="" alt=""/> <!-- background -->
+                            <div class="video-category-play">
+                                <a href="">
+                                    <svg></svg> <!-- play -->
+                                </a>
+                            </div>
+                            <div class="video-category-bottom">
+                                <span>Using index pages</span>
+                                <span>2 Min</span>
+                            </div>
+                        </div>
+                        <div class="video-category-background">
+                            <img src="" alt=""/> <!-- background -->
+                            <div class="video-category-play">
+                                <a href="">
+                                    <svg></svg> <!-- play -->
+                                </a>
+                            </div>
+                            <div class="video-category-bottom">
+                                <span>Working with content</span>
+                                <span>4 Min</span>
+                            </div>
+                        </div>
+                        <div class="video-category-background">
+                            <img src="" alt=""/> <!-- background -->
+                            <div class="video-category-play">
+                                <a href="">
+                                    <svg></svg> <!-- play -->
+                                </a>
+                            </div>
+                            <div class="video-category-bottom">
+                                <span>Using cover pages</span>
+                                <span>7 Min</span>
+                            </div>
+                        </div>                       
+                        <div class="video-category-background">
+                            <img src="" alt=""/> <!-- background -->
+                            <div class="video-category-play">
+                                <a href="">
+                                    <svg></svg> <!-- play -->
+                                </a>
+                            </div>
+                            <div class="video-category-bottom">
+                                <span>Intro to the style model</span>
+                                <span>9 Min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione 3-->
+            <section class="main__section3">
+                <div class="main__section3-top">
+                    <h2>Build and style every element to perfection</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                </div>
+                <div class="main__section3-center">
+                    <div class="progress-bar-circle">
+                        <svg>1</svg>
+                    </div>
+                    <span class="progress-bar-line">-------</span>
+                    <div class="progress-bar-circle">
+                        <svg>2</svg>
+                    </div>
+                    <span class="progress-bar-line">-------</span>
+                    <div class="progress-bar-circle">
+                        <svg>3</svg>
+                    </div>
+                </div>
+                <div class="main__section3-bottom">
+                    <div class="phone-layout"> <!-- background -->
+                        <img src="" alt="" />
+                    </div>
+                    <div class="phone-layout"> <!-- background -->
+                        <img src="" alt="" />
+                    </div>
+                    <div class="phone-layout"> <!-- background -->
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione 4-->
+            <section class="main__section4">
+                <div class="main__section4-top">
+                    <h2>Start building for free, then add a plan to go live</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                </div>
+                <div class="main__section4-bottom">
+                    <div class="section4__bottom-left">
+                        <span> -> </span>
+                        <p>All plans include:</p>
+                        <ul>
+                            <li>Unlimited domains</li>
+                            <li>Unlimited web pages</li>
+                            <li>Conversion analytics</li>
+                            <li>A/B testing</li>
+                            <li>Exclusive channels</li>
+                            <li>Free resources</li>
+                            <li>Landing page builder</li>
+                            <li>Smart forms and reports</li>
+                        </ul>
+                    </div>
+                    <div class="section4__bottom-right">
+                        <div class="card-subscription-plan">
+                            <div>
+                                <span>Yearly</span>
+                                <span>- 40%</span>
+                            </div>
+                            <div>
+                                <span>$</span>
+                                <span>27</span>
+                                <span>/billed yearly</span>
+                                <div>
+                                    <span>-</span>
+                                    <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="call-to-action">
+                                    <a href="">Go Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-subscription-plan">
+                            <div>
+                                <span>Monthly</span>
+                            </div>
+                            <div>
+                                <span>$</span>
+                                <span>47</span>
+                                <span>/billed yearly</span>
+                                <div>
+                                    <span>-</span>
+                                    <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="call-to-action-reverse">
+                                    <a href="">Go Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-subscription-plan">
+                            <div>
+                                <span>Lifetime</span>
+                            </div>
+                            <div>
+                                <span>$</span>
+                                <span>127</span>
+                                <span>/one-time</span>
+                                <div>
+                                    <span>-</span>
+                                    <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="call-to-action-reverse">
+                                    <a href="">Go Premium</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione 5-->
+            <section class="main__section5">
+                <div class="main__section5-box-reviews">
+                    <div class="card-review">
+                        <div class="card-review-top">
+                            <img src="" alt=""/>
+                        </div>
+                        <div class="card-review-center">
+                            <p>“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</p>
+                        </div>
+                        <div class="card-review-bottom">
+                            <span>—Andy Croll,</span>
+                            <span>
+                                <a href="">Appy.com</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-review">
+                        <div class="card-review-top">
+                            <img src="" alt=""/>
+                        </div>
+                        <div class="card-review-center">
+                            <p>“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</p>
+                        </div>
+                        <div class="card-review-bottom">
+                            <span>—Patricia Lepisov,</span>
+                            <span>
+                                <a href="">Nobi Bank</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-review">
+                        <div class="card-review-top">
+                            <img src="" alt=""/>
+                        </div>
+                        <div class="card-review-center">
+                            <p>“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</p>
+                        </div>
+                        <div class="card-review-bottom">
+                            <span>—Zhenya Ritz,</span>
+                            <span>
+                                <a href="">Sync</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-review">
+                        <div class="card-review-top">
+                            <img src="" alt=""/>
+                        </div>
+                        <div class="card-review-center">
+                            <p>“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</p>
+                        </div>
+                        <div class="card-review-bottom">
+                            <span>—Lisa Champ,</span>
+                            <span>
+                                <a href="">Appicu</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sezione 6-->
+            <section class="main__section6">
+                <div class="main__section6-top">
+                    <h2>Put clarity at the center of your website</h2>
+                </div>
+                <div class="main__section6-bottom">
+                    <div class="card-app-skills"> <!-- dato che in qualsiasi punto del box in cui mi trovo esce la manina del link,
+                         posso fare una card i cui elementi sono contenuti dentro un anchor tag? o non è proprio una card?-->
+                        <a href="">
+                            <div class="card-app-skills-top">                              
+                                <span>
+                                    <i class="fa fa-icon"></i>
+                                </span>
+                            </div>
+                            <div class="card-app-skills-center">
+                                <h4>Simpler Sharing</h4>
+                                <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                            </div>
+                            <div class="card-app-skills-bottom">
+                                <span> -> </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-app-skills">
+                       <a href="">
+                           <div class="card-app-skills-top">                              
+                               <span>
+                                   <i class="fa fa-icon"></i>
+                               </span>
+                           </div>
+                           <div class="card-app-skills-center">
+                               <h4>Simpler Sharing</h4>
+                               <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                           </div>
+                           <div class="card-app-skills-bottom">
+                               <span> -> </span>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="card-app-skills">
+                    <a href="">
+                        <div class="card-app-skills-top">                              
+                            <span>
+                                <i class="fa fa-icon"></i>
+                            </span>
+                        </div>
+                        <div class="card-app-skills-center">
+                            <h4>Simpler Sharing</h4>
+                            <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                        </div>
+                        <div class="card-app-skills-bottom">
+                            <span> -> </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-app-skills">
+                    <a href="">
+                        <div class="card-app-skills-top">                              
+                            <span>
+                                <i class="fa fa-icon"></i>
+                            </span>
+                        </div>
+                        <div class="card-app-skills-center">
+                            <h4>Simpler Sharing</h4>
+                            <span>Lorem ipsum dolor amet sit consect adipiscing.</span>
+                        </div>
+                        <div class="card-app-skills-bottom">
+                            <span> -> </span>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </section>
+            <!-- Sezione 7-->
+            <section class="main__section7">
+                <div class="main__section7-banner">
+                    <div class="banner-top">
+                        <h3>Free until you're ready to launch</h3>
+                    </div>
+                    <div class="banner-bottom">
+                        <input type="text" id="phone-number" name="phone" placeholder="Phone number"/>
+                        <div class="call-to-action">
+                            <a href="">Request code</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__left">
+                    <a href="">
+                        <svg></svg>
+                    </a>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__right-lists">
+                        <ul>
+                            <li>
+                                <h5>PRODUCTS</h5>
+                            </li>
+                            <li>
+                                <a href="">Drag And Drop</a>
+                            </li>
+                            <li>
+                                <a href="">Visual Studio X</a>
+                            </li>
+                            <li>
+                                <a href="">Easy Content</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-lists">
+                        <ul>
+                            <li>
+                                <h5>RESOURCES</h5>
+                            </li>
+                            <li>
+                                <a href="">Industries and tools</a>
+                            </li>
+                            <li>
+                                <a href="">Use cases</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                            <li>
+                                <a href="">Online events</a>
+                            </li>
+                            <li>
+                                <a href="">Nostrud exercitation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-lists">
+                        <ul>
+                            <li>
+                                <h5>COMPANY</h5>
+                            </li>
+                            <li>
+                                <a href="">Diversity & inclusion</a>
+                            </li>
+                            <li>
+                                <a href="">About us</a>
+                            </li>
+                            <li>
+                                <a href="">Press</a>
+                            </li>
+                            <li>
+                                <a href="">Customer stories</a>
+                            </li>
+                            <li>
+                                <a href="">Online communities</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right-lists">
+                        <ul>
+                            <li>
+                                <h5>SUPPORT</h5>
+                            </li>
+                            <li>
+                                <a href="">Documentation</a>
+                            </li>
+                            <li>
+                                <a href="">Tutorials & guides</a>
+                            </li>
+                            <li>
+                                <a href="">Webinars</a>
+                            </li>
+                            <li>
+                                <a href="">Open-source</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <div class="subfooter-left">
+                    <span>© Cruip.com. All rights reserved.</span>
+                </div>
+                <div class="subfooter-center">
+                    <a href="">Terms</a>
+                    <span>.</span>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="subfooter-right">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <svg></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
